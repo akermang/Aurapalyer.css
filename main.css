@@ -113,6 +113,10 @@ span.spn-login-form label {
     width: 10% !important;
 }
 
+.width-33 {
+    width: 33.32%;
+}
+
 .width-78 {
     width: 78% !important;
 }
@@ -172,7 +176,6 @@ table#tableOutput {
     max-width: fit-content;
     margin: 0 auto;
 }
-
 
 ul.bordered-full {
     padding: 0.5em;
@@ -330,14 +333,6 @@ html head+body .ui-btn.ui-btn-b:hover {
     background-color: #282273 !important;
 }
 
-@media (max-width: 952px) {
-    .table-responsive {
-        display: block !important;
-        border: 1px solid #282273;
-
-    }
-}
-
 @media (max-width: 600px) {
     #pageTitle {
         margin-left: 120px;
@@ -373,7 +368,7 @@ html head+body .ui-btn.ui-btn-b:hover {
         margin-bottom: 2px !important;
         border-bottom: 2px solid #282273 !important;
         box-shadow: 1px 3px rgba(0, 0, 0, .2) !important;
-        max-width: 100%!important;
+        max-width: 100% !important;
     }
     .bordered-full {
         border: none;
@@ -387,41 +382,36 @@ html head+body .ui-btn.ui-btn-b:hover {
         width: 95px;
         max-height: 28px;
     }
-
-    h3{
+    h3 {
         font-size: 135%;
     }
-    
     #pageTitle {
         transform: translateY(5px)
     }
-    
     div#header img {
         width: 100px;
     }
-    
     h3 img.action-img {
-        width: 24px!important;
+        width: 24px !important;
         height: 24px;
     }
-    
     h3.hamburger {
         font-size: 1.75rem;
     }
-    
-    a{
-        max-width: 100%!important;
+    a {
+        max-width: 100% !important;
         padding-top: 0.5em;
     }
-    
 }
 
 @media(max-width: 340px) {
-     h3{
+    h3 {
         font-size: 118%;
     }
 }
+
 /* Table */
+
 .responstable {
     margin: 1em 0;
     width: 100%;
@@ -438,11 +428,11 @@ html head+body .ui-btn.ui-btn-b:hover {
 }
 
 .table-hover tbody tr:hover {
-    background-color:#28227331;
+    background-color: #28227331;
 }
 
 .responstable th {
-    display: none;
+    display: none!important;
     border: 1px solid #FFF;
     background-color: #282273;
     color: #FFF;
@@ -459,7 +449,7 @@ html head+body .ui-btn.ui-btn-b:hover {
     max-width: 7em;
 }
 
-.responstable td{
+.responstable td {
     display: table-cell;
     text-align: center;
     border-right: 1px solid #D9E4E6;
@@ -473,8 +463,14 @@ html head+body .ui-btn.ui-btn-b:hover {
     padding: 1em;
 }
 
-@media (max-width: 700px){
-    .responstable th{
+@media (max-width: 952px) {
+    .table-responsive {
+        border: 1px solid #282273;
+    }
+}
+
+@media (max-width: 700px) {
+    .responstable th {
         padding: .6em;
     }
 }
@@ -482,58 +478,59 @@ html head+body .ui-btn.ui-btn-b:hover {
 @media (max-width: 560px) {
     .responstable {
         border: 1px solid #282273;
-
     }
-
     .responstable th,
     .responstable td {
         display: table-cell;
         padding: 1em;
     }
 }
+
 /* Hamburger */
+
 #leftpanel {
-	opacity: 0.98;
-	filter: alpha(opacity=90); /* For IE8 and earlier */
+    opacity: 0.98;
+    filter: alpha(opacity=90);
+    /* For IE8 and earlier */
 }
 
 #leftpanel ul li a {
-	background-color: #fdfefe;
-	color: #325d5d;
+    background-color: #fdfefe;
+    color: #325d5d;
 }
 
 #titleRow-button {
-	background-color: transparent;
-	border-style: none;
-	text-shadow: none;
-	padding-top: 15px;
-	color: #f7f7f7!important;
+    background-color: transparent;
+    border-style: none;
+    text-shadow: none;
+    padding-top: 15px;
+    color: #f7f7f7 !important;
 }
 
 .action-a .action-img {
-	width: 20px;
-	vertical-align: initial;
+    width: 20px;
+    vertical-align: initial;
 }
 
 #hamburger-title {
-	font-size: 30px;
-	font-weight: 550;
-	padding-top: 15px;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 15px;
 }
 
 #hamburger-close {
-	background-color: transparent;
-	border-style: none;
-	text-shadow: none;
-	padding-top: 32px;
-	float: right;
-	padding-bottom: 15px;
+    background-color: transparent;
+    border-style: none;
+    text-shadow: none;
+    padding-top: 32px;
+    float: right;
+    padding-bottom: 15px;
 }
 
 #hamburger-close:hover {
-	background-color: rgba(0, 0, 0, 0.04);
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
 #hamburger-close:after {
-	background-color: #8d8d8e;
+    background-color: #8d8d8e;
 }
