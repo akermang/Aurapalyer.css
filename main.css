@@ -432,7 +432,7 @@ html head+body .ui-btn.ui-btn-b:hover {
 }
 
 .responstable th {
-    display: none!important;
+    display: none;
     border: 1px solid #FFF;
     background-color: #282273;
     color: #FFF;
