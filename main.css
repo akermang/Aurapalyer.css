@@ -22,6 +22,10 @@
     padding: 12px 8px;
 }
 
+.pad-10 {
+    padding: 10px;
+}
+
 .pad-b-size-1 {
     padding-bottom: 1em;
 }
