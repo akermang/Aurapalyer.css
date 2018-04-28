@@ -71,6 +71,14 @@ span.spn-login-form label {
 
 /* global sizing class   **************** */
 
+.d-none {
+    display: none;
+}
+
+.d-inl-block {
+    display: inline-block;
+}
+
 .text-control-ul li div[class*=ui-block] {
     overflow: hidden;
     white-space: nowrap;
@@ -155,14 +163,6 @@ span.paded-spn {
 
 .font-w-bolder {
     font-weight: bolder;
-}
-
-.d-none {
-    display: none;
-}
-
-.d-inl-block {
-    display: inline-block;
 }
 
 /* **************************** */
