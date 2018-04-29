@@ -160,6 +160,9 @@ span.spn-login-form label {
 .max-w-1400 {
     max-width: 1400px;
 }
+.height-30 {
+    height: 30px;
+}
 
 div.pad-div-10 {
     padding: 10px;
