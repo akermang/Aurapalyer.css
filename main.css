@@ -158,13 +158,12 @@ span.paded-spn {
 }
 
 .d-none {
-    display: none !important;
+    display: none;
 }
 
-/* a[class *= ui-icon],
-label[class *= ui-icon]{
-    background-color: #704e164f!important;
-} */
+.d-inl-block {
+    display: inline-block;
+}
 
 /* **************************** */
 
