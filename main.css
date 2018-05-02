@@ -35,9 +35,9 @@ div.mainPage{
     visibility: hidden;
 }
 
-.ui-header a img.logo-img {
+/* .ui-header a img.logo-img {
     padding: 12px 8px; 
-}
+} */
 
 .mainPage.login form {
     width: 100%;
@@ -90,10 +90,19 @@ div.mainPage{
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 }
 
-img.logo-link-img-sm {
-    width: 120px;
-    max-height: 38px;
+img.logo-img {
+    max-width: 120px;
+    /* max-height: 38px; */
 }
+
+#leftpanel .logo-img {
+    padding-left: 5px;
+}
+
+#leftpanel ul {
+    margin-top: 45px;
+}
+
 
 form.responseForm1 {
     width: 100%;
@@ -112,10 +121,26 @@ span.spn-login-form label {
     min-width: 280px;
 }
 
+.spacerAbovePopups {
+    height: 30px;
+}
+
+#infoPopup {
+    max-width: 400px;
+}
+
+#infoPopup span {
+    padding: 1px;
+}
+
+#confirmPopup {
+    max-width: 400px;
+}
+
 /* global sizing class   **************** */
 
 .d-none {
-    display: none;
+    display: none!important;
 }
 
 .d-inl-block {
@@ -444,8 +469,8 @@ html head+body .ui-btn.ui-btn-b:hover {
 }
 
 @media(max-width: 400px) {
-    img.logo-link-img-sm {
-        width: 95px;
+    img.logo-img {
+        width: 100px;
         max-height: 28px;
     }
     h3 {
