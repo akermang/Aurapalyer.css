@@ -83,3 +83,7 @@ OrdersHtml:
 1 line 128 add class="responstable"
 2 line 131 - 137 remove style
 3 
+
+CoustomerDetails:
+1 div id="map" add -> class="map-container"
+2 line 189 <button id="Orders" class="ui-btn clr-primary ui-btn-raised border-r-size-1 max-w-400 cont-center"> Orders </button> 
