@@ -12,6 +12,7 @@
 
 div.mainPage{
     min-height: 615px;
+    padding: 1em;
 }
 
 .mainPage.login div.main {
@@ -441,6 +442,15 @@ html head+body .ui-btn.ui-btn-b:hover {
        display: none;
    }
 
+   .mainPage {
+       padding: 0;
+   }
+
+   .bordered-full{
+        border: none;
+        box-shadow: none;
+        padding: .5em;
+   }
 
     ul.bordered-full {
         border: none;
