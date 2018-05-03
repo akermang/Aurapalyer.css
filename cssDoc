@@ -47,7 +47,7 @@
 LOGIN:
 1 add class="mainPage login" to <div id="mainPage"
 2 add class="ui-content main" to <div data-role="main" 
-3 ADD class="ui-header ui-bar-a" to  <div data-role="header" id="header"
+3 ADD class="header-container ui-header-fixed" to  <div data-role="header" id="header"
 4 <h3>☰</h3> replace-> <h3><img class="action-img" src="../../images/ActionIcon.png" alt="nav"></h3>
 5 line 113 -> <div class="col-xs-1 pad-size-1">  
 6 logo img add class->  <img class="logo-img" src="../../www/img/logo4.png" width="120px">     
