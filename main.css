@@ -35,10 +35,6 @@ div.mainPage {
   visibility: hidden;
 }
 
-/* .ui-header a img.logo-img {
-    padding: 12px 8px; 
-} */
-
 .mainPage.login form {
   width: 100%;
   padding: 12px 8px;
@@ -523,21 +519,6 @@ html head + body .ui-btn.ui-btn-b:hover {
 }
 
 /* Table */
-.scroll-control-buttons {
-  margin: 0 auto;
-  max-width: 600px;
-  width: 100%;
-  display: none;
-  -webkit-justify-content: space-around;
-  justify-content: space-evenly;
-}
-.scroll-control-buttons span {
-  background: inherit;
-  color: #1d338c;
-  font-size: 50px;
-  border: 0;
-}
-
 .responstable {
   margin: 1em 0;
   width: 100%;
@@ -596,26 +577,11 @@ html head + body .ui-btn.ui-btn-b:hover {
 }
 
 @media (max-width: 700px) {
-    .responstable {
-        max-height: 100vh;
-    }
 
   .responstable th {
     padding: 0.6em;
   }
 
-  /* .scroll-control-buttons {
-    display: flex;
-  } */
-
-  .table-wrapper {
-    overflow: auto;
-    max-height: 450px;
-    max-width: fit-content;
-    border-radius: 7px;
-    border-top: 1px solid #1d338c;
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: 560px) {
