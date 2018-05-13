@@ -141,6 +141,10 @@ span.spn-login-form label {
   display: none !important;
 }
 
+.v-hidden{
+  visibility: hidden; 
+}
+
 .d-inl-block {
   display: inline-block;
 }
