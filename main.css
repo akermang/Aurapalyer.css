@@ -32,10 +32,6 @@ div.mainPage {
   padding: 12px 8px;
 }
 
-.mainPage.login img.action-img {
-  visibility: hidden;
-}
-
 .mainPage.login form {
   width: 100%;
   padding: 12px 8px;
@@ -182,6 +178,10 @@ span.spn-login-form label {
 
 .margin-bottom-1 {
   margin-bottom: 1em !important;
+}
+
+.margin-r-0 {
+  margin-right: 0;
 }
 
 .float-r {
