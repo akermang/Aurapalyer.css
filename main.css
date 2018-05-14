@@ -259,6 +259,14 @@ button {
   text-shadow: none !important;
 }
 
+button.ap-btn {
+  background-color: #1d338c;
+  border-radius: 7px;
+  padding: 12px 8px;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
 .ui-input-text input:focus,
 .ui-input-search input:focus {
   border-bottom-color: #1d338c;
