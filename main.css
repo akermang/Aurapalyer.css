@@ -261,6 +261,7 @@ button {
 
 button.ap-btn {
   background-color: #1d338c;
+  color: rgba(255, 255, 255, 0.85);
   border-radius: 7px;
   padding: 12px 8px;
   max-width: 400px;
