@@ -564,14 +564,14 @@ html head + body .ui-btn.ui-btn-b:hover {
 }
 
 /* Table */
-responstable {
+responseTable {
   margin: 1em 0;
   width: 100%;
   background: #fff;
   border-radius: 7px;
 }
 
-responstable tr {
+responseTable tr {
   border: 1px solid #d9e4e6;
 }
 
@@ -583,7 +583,7 @@ responstable tr {
   background-color: #1d338c31;
 }
 
-responstable th {
+responseTable th {
   display: none;
   border: 1px solid #fff;
   background-color: #1d338c;
@@ -591,24 +591,24 @@ responstable th {
   padding: 0.5em;
 }
 
-responstable th:first-child {
+responseTable th:first-child {
   text-align: center;
 }
 
-responstable td {
+responseTable td {
   display: block;
   word-wrap: break-word;
   max-width: 7em;
 }
 
-responstable td {
+responseTable td {
   display: table-cell;
   text-align: center;
   border-right: 1px solid #d9e4e6;
 }
 
-responstable th,
-responstable td {
+responseTable th,
+responseTable td {
   text-align: left;
   margin: 0.5em 1em;
   display: table-cell;
@@ -623,18 +623,18 @@ responstable td {
 
 @media (max-width: 700px) {
 
-  responstable th {
+  responseTable th {
     padding: 0.6em;
   }
 
 }
 
 @media (max-width: 560px) {
-  responstable {
+  responseTable {
     border: 1px solid #1d338c;
   }
-  responstable th,
-  responstable td {
+  responseTable th,
+  responseTable td {
     display: table-cell;
     padding: 1em;
   }
