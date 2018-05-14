@@ -289,6 +289,11 @@ button.ap-btn.ui-btn {
   -webkit-appearance: none;
 }
 
+button.ap-btn.ui-btn:hover {
+  background-color: #cf1616;
+    border-color: #ddd;
+}
+
 .ui-input-text input:focus,
 .ui-input-search input:focus {
   border-bottom-color: #1d338c;
