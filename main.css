@@ -259,7 +259,7 @@ button {
   text-shadow: none !important;
 }
 
-button.ap-btn {
+button.ap-btn.ui-btn {
   background-color: #1d338c;
   color: rgba(255, 255, 255, 0.85);
   font-family: "RobotoDraft", "Roboto", "Helvetica Neue", sans-serif;
