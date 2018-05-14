@@ -290,8 +290,9 @@ button.ap-btn.ui-btn {
 }
 
 button.ap-btn.ui-btn:hover {
-  background-color: #cf1616;
-    border-color: #ddd;
+  background-color: #1d338c;
+  color: rgba(255, 255, 255, 0.85);
+  border-color: #ddd;
 }
 
 .ui-input-text input:focus,
