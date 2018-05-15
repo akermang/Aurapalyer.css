@@ -26,6 +26,9 @@ div.mainPage {
   margin: 6em auto !important;
   padding: 1em;
 }
+.login .action-img {
+  visibility: hidden;
+}
 
 .mainPage.login h3#pageTitle {
   text-align: center;
