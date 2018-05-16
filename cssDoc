@@ -87,3 +87,7 @@ OrdersHtml:
 CoustomerDetails:
 1 div id="map" add -> class="map-container"
 2 line 189 <button id="Orders" class="ui-btn clr-primary ui-btn-raised border-r-size-1 max-w-400 cont-center"> Orders </button> 
+
+Map:
+1.Old --->    <span class="responseField" style="display: inline-block; width: 98.0%" id="Map_container"> 
+  New --->  <span class="responseField map-container"  id="Map_container"> 

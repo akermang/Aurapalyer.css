@@ -133,7 +133,9 @@ span.spn-login-form label {
 }
 
 /* Map */
-.map-container {
+span.map-container {
+  width: 100%;
+  display: inline-block;
 }
 
 /* global sizing class   **************** */
