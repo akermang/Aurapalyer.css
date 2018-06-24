@@ -114,9 +114,7 @@ img.action-img {
 }
 
 img.logo-img {
-  transform: translateX(-40%);
   max-width: 120px;
-  /* max-height: 38px; */
 }
 
 #leftpanel .logo-img {
@@ -505,9 +503,6 @@ html head + body .ui-btn.ui-btn-b:hover {
     flex-direction: column;
   }
 
-  #pageTitle {
-    text-align: left !important;
-  }
   .table-responsive {
     display: block !important;
   }
@@ -569,18 +564,12 @@ html head + body .ui-btn.ui-btn-b:hover {
     border-radius: 7px;
     box-shadow: none;
   }
-
-  img.logo-img {
-    transform: translateX(-27%);
-
-  }
 }
 
 @media (max-width: 400px) {
   img.logo-img {
     width: 100px;
     max-height: 28px;
-    transform: translateX(-43%)
   }
   
   h3 {
@@ -589,10 +578,6 @@ html head + body .ui-btn.ui-btn-b:hover {
 
   .mainPage.login #pageTitle {
     margin-left: 38%;
-  }
-
-  div#header img {
-    width: 142%;
   }
 
   h3 img.action-img {
