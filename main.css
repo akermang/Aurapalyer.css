@@ -58,10 +58,9 @@ img.action-img {
   align-items: center;
 }
 
-.title-container{
+.title-container {
   flex: 3;
 }
-
 
 .cont-center {
   margin: 0 auto;
@@ -86,7 +85,6 @@ img.action-img {
 .pad-b-size-1 {
   padding-bottom: 1em;
 }
-
 
 .pad-sides-15 {
   padding-left: 15px;
@@ -170,8 +168,8 @@ span.map-container {
   display: none !important;
 }
 
-.v-hidden{
-  visibility: hidden; 
+.v-hidden {
+  visibility: hidden;
 }
 
 .d-inl-block {
@@ -291,20 +289,20 @@ button.ap-btn.ui-btn {
   background-color: #1d338c;
   color: rgba(255, 255, 255, 0.85);
   font-family: "RobotoDraft", "Roboto", "Helvetica Neue", sans-serif;
-  text-decoration: none!important;
+  text-decoration: none !important;
   border-width: 1px;
   border-style: solid;
   font-size: 1em;
   line-height: 1.3;
   font-weight: 500;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   border-color: #ddd;
   box-sizing: border-box;
   border-radius: 7px;
   padding: 12px 8px;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto; 
+  margin: 0 auto;
   user-select: none;
   display: block;
   position: relative;
@@ -571,7 +569,7 @@ html head + body .ui-btn.ui-btn-b:hover {
     width: 100px;
     max-height: 28px;
   }
-  
+
   h3 {
     font-size: 135%;
   }
@@ -660,11 +658,9 @@ html head + body .ui-btn.ui-btn-b:hover {
 }
 
 @media (max-width: 700px) {
-
   .responseTable th {
     padding: 0.6em;
   }
-
 }
 
 @media (max-width: 560px) {
@@ -681,7 +677,7 @@ html head + body .ui-btn.ui-btn-b:hover {
 /* Hamburger */
 
 #leftpanel {
-  opacity: 0.98;
+  opacity: 1;
   filter: alpha(opacity=90);
   /* For IE8 and earlier */
 }
@@ -689,6 +685,19 @@ html head + body .ui-btn.ui-btn-b:hover {
 #leftpanel ul li a {
   background-color: #fdfefe;
   color: #1d338c;
+}
+
+#leftpanel ul li a.ui-icon-carat-r::after {
+  background-color: #ffffff;
+}
+
+.left-panel-header {
+  text-align: center;
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 60px;
 }
 
 #titleRow-button {
@@ -723,5 +732,14 @@ html head + body .ui-btn.ui-btn-b:hover {
 }
 
 #hamburger-close:after {
-  background-color: #8d8d8e;
+  background-color: #ffffff;
+    border: 1px solid #1d338c;
+    height: 30px;
+    width: 30px;
+    fill: red;
+}
+
+#leftpanel ul li a.selected {
+  background-color: #1d338c;
+  color: #ffffff;
 }

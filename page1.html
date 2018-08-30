@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Modified" content="1526464898609">
+    <title>page1</title>
+    <!-- META -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="cache-control" content="no-cache,no-store, must-revalidate">
+    <meta http-equiv="last-modified" content="1526464898609">
+    <meta name="Created-By" content="manager">
+    <meta name="Creation-Timestamp" content="1526464898609">
+    <!-- CSS imports -->
+    <link rel="stylesheet" href="../../res/jqueryMobile/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="../../res/jqueryMobile/jquery.mobile.theme-1.4.5.min.css">
+    <link rel="stylesheet" href="../../res/jqueryUi/jquery-ui-1.10.1.custom.min.css">
+    <link rel="stylesheet" href="../../res/nativeDroid/css/nativedroid2.css">
+    <!-- <link rel="stylesheet" href="../../res/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../../res/auraplayer/android.css">
+    <link rel="stylesheet" href="./main.css">
+    <!-- Javascript imports -->
+    <script type="text/javascript" src="../../res/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../res/jquery/jquery-dateFormat.min.js"></script>
+    <script type="text/javascript" src="../../res/jqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../../res/jqueryUi/jquery-ui-1.10.1.custom.min.js"></script>
+    <script type="text/javascript" src="../../res/nativeDroid/js/nativedroid2.js"></script>
+    <!-- <script type="text/javascript" src="../../res/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- AuraPlayer imports -->
+    <script type="text/javascript" src="../../res/dist/auraplayer.js"></script>
+    <script type="text/javascript" src="js/app.common.js"></script>
+    <script type="text/javascript" src="json/handlerMap_1526464898609.json"></script>
+    <script type="text/javascript" src="js/custom_js_1526464898609.js"></script>
+    <script type="text/javascript" src="js/leftpanel.service.js"></script>
+
+
+
+</head>
+
+<body dir="LTR" id="mainBody">
+
+    <div id="mainPage" data-role="page" data-theme="a" class="main-page">
+        <div data-role="header" id="header" data-theme="a" class="header-container ui-header-fixed">
+            <div class="container-flex">
+                <!-- <div class="row-ap"> -->
+                <a id="titleRow-button" href="#leftpanel" class="ui-btn nav-icon">
+                    <h3 class="text-white hamburger">
+                        <img class="action-img" src="../../images/ActionIcon.png" alt="nav">
+                    </h3>
+                </a>
+                <div class="logo-container">
+                    <a href="javascript:navigate('Login.html')">
+                        <img class="logo-img" src="../../www/img/logo4.png" width="120px">
+                    </a>
+                </div>
+                <div class="title-container">
+                    <h3 id="pageTitle">page1</h3>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div data-role="main" class="ui-content max-w-1400 cont-center margin-top-6">
+
+
+        </div>
+        <div id="leftpanel" data-role="panel" data-display="overlay" data-position-fixed="true">
+            <div class="left-panel-header">
+                <span id="hamburger-title"><img class="logo-img" src="../../www/img/logo4.png"></span>
+                <a href="#" id="hamburger-close" class="ui-btn ui-icon-carat-l ui-btn-icon-left" data-rel="close"></a>
+            </div>
+
+            <ul data-role="listview" style="margin-top: 45px">
+                    <li data-icon="ui-icon-blank">
+                        <a class="ui-btn ui-btn-icon-left ui-icon-carat-r" href="Buttons.html" data-ajax="false">Buttons</a>
+                    </li>
+                    <li data-icon="ui-icon-blank">
+                        <a class="ui-btn ui-btn-icon-left ui-icon-carat-r" href="page1.html" data-ajax="false">page1</a>
+                    </li>
+                    <li data-icon="ui-icon-blank">
+                        <a class="ui-btn ui-btn-icon-left ui-icon-carat-r" href="page2.html" data-ajax="false">page2</a>
+                    </li>
+                </ul>
+        </div>
+        <!-- Info popup - single OK button -->
+        <div data-role="popup" id="infoPopup" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+            <div data-role="header" data-theme="a">
+                <h1 id="infoPopupTitle"></h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p id="infoPopupMessage"></p>
+                <span style="padding: 1px;"></span>
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-a" data-rel="back">OK</a>
+            </div>
+        </div>
+        <!-- Confirm popup - OK, Cancel buttons -->
+        <div data-role="popup" id="confirmPopup" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+            <div data-role="header" data-theme="a">
+                <h1 id="confirmPopupTitle"></h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p id="confirmPopupMessage"></p>
+                <div style="padding: 10px;"></div>
+                <a id="confirmPopupOk" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back" data-transition="flow">OK</a>
+                <a id="confirmPopupCancel" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Cancel</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
